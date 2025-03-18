@@ -30,13 +30,7 @@ Styles are kept in this repo for issue tracking and any version changes.
 
 ## Themes
 
-<div style="display: flex; flex-wrap: wrap; gap: 18px;">
-  <a href="./sites/last.fm" style="width: calc(50% - 9px);">
-    <img src="./sites/last.fm/screenshot.jpg">
-    <span>Last.fm Dark Mode</span>
-  </a>
-  <a href="./sites/musicbrainz.org" style="width: calc(50% - 9px);">
-    <img src="./sites/musicbrainz.org/screenshot.jpg">
-    <span>Last.fm Dark Mode</span>
-  </a>
-</div>
+|                                     |                                             |
+| ----------------------------------- | ------------------------------------------- |
+| ![](./sites/last.fm/screenshot.jpg) | ![](./sites/musicbrainz.org/screenshot.jpg) |
+| [Last.fm Dark Mode](./sites/last.fm)                   | [musicbrainz.org Dark](./sites/musicbrainz.org/) Mode                   |
