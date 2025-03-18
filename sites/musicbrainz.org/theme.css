@@ -1,0 +1,75 @@
+/* ==UserStyle==
+@name           MusicBrainz Dark Theme
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Dark theme for MusicBrainz
+@author         https://lukesecomb.digital
+==/UserStyle== */
+
+@-moz-document domain("musicbrainz.org") {
+  :root {
+    --primary-color: #eb743b;
+    --bg-color: #131414;
+    --text-color: #fff;
+    --text-disabled-color: #999;
+    --border-color: #3b3b3a;
+  }
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  table.tbl thead {
+    background: none;
+  }
+  table.tbl tr.even td,
+  table.tbl tr.even th {
+    background-color: hsl(236, 2%, 10%);
+  }
+  a {
+    color: var(--primary-color);
+  }
+  input,
+  select {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+  }
+  .buttons a,
+  .buttons button {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-top: 1px solid var(--primary-color);
+    border-left: 1px solid var(--primary-color);
+    color: var(--text-color);
+  }
+  .banner {
+    background-color: var(--bg-color);
+    border: var(--border-color) 1px solid;
+  }
+  .header .right .top .search-container form input#headerid-query,
+  .header .right .top .search-container form select#headerid-type {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  .header .right .top .search-container form input#headerid-query {
+    border-right-color: var(--border-color);
+  }
+  .header .right .top .search-container form button {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border-left-color: var(--border-color);
+  }
+  .header .right .top .search-container form button img {
+    filter: invert(1);
+  }
+  nav .pagination span {
+    background-color: var(--bg-color);
+    color: var(--text-disabled-color);
+    border: var(--border-color) solid 1px;
+  }
+  nav .pagination a {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: var(--border-color) solid 1px;
+  }
+}
