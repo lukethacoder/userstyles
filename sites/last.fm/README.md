@@ -1,7 +1,5 @@
----
-img: https://userstyles.world/preview/21466/0.webp
----
-
 # Last.fm Dark Mode
 
-![](https://userstyles.world/preview/21466/0.webp)
+[Download from userstyles](https://userstyles.world/style/21470/last-fm-dark-mode)
+
+![](./screenshot.jpg)

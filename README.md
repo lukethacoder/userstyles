@@ -31,16 +31,12 @@ Styles are kept in this repo for issue tracking and any version changes.
 ## Themes
 
 <div>
-  <figure>
-    <img src="./sites/last.fm/screenshot.jpg" width="45%">
-    <figcaption>
-      <a href="./sites/last.fm.org">Last.fm Dark Mode</a>
-    </figcaption>
-  </figure>
-  <figure>
-    <img src="./sites/musicbrainz.org/screenshot.jpg" width="45%">
-    <figcaption>
-      <a href="./sites/musicbrainz.org">Music Brains Dark Mode</a>
-    </figcaption>
-  </figure>
+  <a href="./sites/last.fm" width="45%">
+    <img src="./sites/last.fm/screenshot.jpg">
+    <span>Last.fm Dark Mode</span>
+  </a>
+  <a href="./sites/musicbrainz.org" width="45%">
+    <img src="./sites/musicbrainz.org/screenshot.jpg">
+    <span>Last.fm Dark Mode</span>
+  </a>
 </div>
