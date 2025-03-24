@@ -10,45 +10,69 @@
   :root {
     --primary-color: #eb743b;
     --bg-color: #131414;
+    --bg-secondary-color: hsl(236, 2%, 10%);
     --text-color: #fff;
     --text-disabled-color: #999;
     --border-color: #3b3b3a;
+    --highlight-color: #382807;
   }
   body {
     background-color: var(--bg-color);
     color: var(--text-color);
   }
-  table.tbl thead {
+  table.tbl thead,
+  table.tbl tr.subh td, table.tbl tr.subh th {
     background: none;
   }
-  table.tbl tr.even td,
-  table.tbl tr.even th {
-    background-color: hsl(236, 2%, 10%);
+  #release-editor #recordings fieldset table tr.even td,
+  table.tbl tr.even td, table.tbl tr.even th,
+  .edit-notes .edit-note h3 {
+    background-color: var(--bg-secondary-color);    
   }
-  a {
+  a,
+  #footer a,
+  button.with-label,
+  .btn-link {
     color: var(--primary-color);
   }
+  .tooltip-wrapper .tooltip-container .tooltip-content a {
+    color: var(--primary-color) !important;
+  }
+  h1 a {
+    color: var(--text-color) !important;
+  }
+  .positive,
+  .negative {
+    color: var(--bg-color);    
+  }
   input,
-  select {
+  select,
+  textarea,
+  table.statistics th {
     background-color: var(--bg-color);
     color: var(--text-color);
     border: 1px solid var(--border-color);
   }
-  .buttons a,
-  .buttons button {
+  .buttons a, .buttons button {
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-top: 1px solid var(--primary-color);
     border-left: 1px solid var(--primary-color);
     color: var(--text-color);
   }
-  .banner {
+  div.tabs ul li a,
+  table.tbl > tbody > tr > th a, table.tbl > thead th a {
+    color: var(--text-color);    
+  }
+  .bubble,
+  .banner,
+  div.artwork-cont {
     background-color: var(--bg-color);
     border: var(--border-color) 1px solid;
   }
   .header .right .top .search-container form input#headerid-query,
   .header .right .top .search-container form select#headerid-type {
-    background-color: var(--bg-color);
+    background-color: var(--bg-color);   
     color: var(--text-color);
   }
   .header .right .top .search-container form input#headerid-query {
@@ -59,6 +83,7 @@
     color: var(--text-color);
     border-left-color: var(--border-color);
   }
+  span.artwork-icon, span.caa-icon, span.eaa-icon,
   .header .right .top .search-container form button img {
     filter: invert(1);
   }
@@ -71,5 +96,44 @@
     background-color: var(--bg-color);
     color: var(--text-color);
     border: var(--border-color) solid 1px;
+  }
+  .annotation-collapsed:after, .collapsed:after, .review-collapsed:after, .wikipedia-extract-collapsed:after {
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0, var(--bg-color) 100%);
+  }
+  div.mp, span.mp, table.tbl tr.mp td, table.tbl tr.mp th, tr.diff-changes {
+    background: var(--highlight-color) !important;
+  }
+  #sidebar .listenbrainz-button,
+  #sidebar .cover-art.present ~ .listenbrainz-button {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+  }
+  .content-loading,
+  .ui-widget-content,
+  .ui-tabs .ui-tabs-nav,
+  .ui-tabs .ui-tabs-nav li a, .ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a,
+  .edit-list {
+    background: var(--bg-color);
+  }
+  input.lookup-performed, input.success {
+    color: var(--bg-color);
+  }
+  .tooltip-wrapper .tooltip-container .tooltip-triangle:before {
+    border-right: 9px solid #414141;
+  }
+  .tooltip-wrapper .tooltip-container .tooltip-triangle:after {
+    border-right: 9px solid #414141;
+  }
+  
+  .bubble.left-tail:before {
+    border-right: 18px solid #414141;
+  }
+  #release-editor .medium.tbl th {
+    background: var(--bg-color);
+  }
+  .tooltip-wrapper .tooltip-container .tooltip-content {
+    background: var(--bg-color);    
+    box-shadow: none;
+    border-color: var(--border-color);
   }
 }
