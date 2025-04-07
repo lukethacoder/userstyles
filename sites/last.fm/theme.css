@@ -170,4 +170,32 @@
   .user-list-shared-artists {
     border-color: var(--border-color);
   }
+  
+  .highcharts-root .highcharts-background {
+    fill: var(--bg-color);
+  }
+  .highcharts-root text,
+  .highcharts-poin.highcharts-color-0 {
+    color: var(--text-color) !important;
+    fill: var(--text-color) !important;
+  }
+  
+  .highcharts-label-box.highcharts-tooltip-box {
+    background-color: var(--bg-color);
+    fill: var(--bg-color) !important;
+    color: var(--text-color) !important;
+    stroke: var(--text-color);
+  }
+  
+  #scrobble-chart-content tr:nth-of-type(2n) td {
+    background-color: var(--bg-color-secondary);
+  }
+  
+  /* Hide ads / Promo for Pro */
+  .mpu-subscription-upsell {
+    display: none;
+  }
+  .your-progress .buffer-2 {
+    display: none;
+  }
 }
