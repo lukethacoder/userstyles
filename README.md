@@ -30,7 +30,9 @@ Styles are kept in this repo for issue tracking and any version changes.
 
 ## Themes
 
-|                                      |                                                       |
-| ------------------------------------ | ----------------------------------------------------- |
-| ![](./sites/last.fm/screenshot.jpg)  | ![](./sites/musicbrainz.org/screenshot.jpg)           |
-| [Last.fm Dark Mode](./sites/last.fm) | [musicbrainz.org Dark Mode](./sites/musicbrainz.org/) |
+|                                            |                                                       |
+| ------------------------------------------ | ----------------------------------------------------- |
+| ![](./sites/last.fm/screenshot.jpg)        | ![](./sites/musicbrainz.org/screenshot.jpg)           |
+| [Last.fm Dark Mode](./sites/last.fm)       | [musicbrainz.org Dark Mode](./sites/musicbrainz.org/) |
+| ![](./sites/songkick.com/screenshot.jpg)   |                                                       |
+| [Songkick Dark Mode](./sites/songkick.com) |                                                       |
